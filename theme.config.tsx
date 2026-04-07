@@ -7,9 +7,7 @@ const config: DocsThemeConfig = {
     link: "https://github.com/nan-yu"
   },
   docsRepositoryBase: "https://github.com/nan-yu/blog",
-  footer: {
-    text: `© ${new Date().getFullYear()} Nan Yu. Built with Next.js and Nextra.`
-  },
+  footer: <span>© {new Date().getFullYear()} Nan Yu. Built with Next.js and Nextra.</span>,
   head: (
     <>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
