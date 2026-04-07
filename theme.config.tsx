@@ -29,17 +29,12 @@ const config: DocsThemeConfig = {
   },
   toc: {
     float: true,
-    backToTop: true
+    backToTop: "返回顶部"
   },
   feedback: {
     content: "编辑这篇文章"
   },
-  editLink: {
-    text: "在 GitHub 上编辑此页"
-  },
-  search: {
-    placeholder: "搜索内容..."
-  },
+  editLink: "在 GitHub 上编辑此页",
   navigation: {
     prev: true,
     next: true
